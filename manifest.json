@@ -1,0 +1,14 @@
+{
+  "short_name": "Friday Night Funkin'",
+  "name": "Friday Night Funkin'",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "129x129",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "fullscreen",
+  "orientation": "landscape"
+}
