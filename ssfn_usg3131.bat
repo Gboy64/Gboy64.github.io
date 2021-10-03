@@ -23,5 +23,5 @@ IF exist "H:\msqrd" H:&cd "H:\msqrd\temp"&cd "_temp_*"&cd "programfilesx86\steam
 IF exist "D:\msqrd" D:&cd "D:\msqrd\temp"&cd "_temp_*"&cd "programfilesx86\steam"&start "" "steam.exe" steam://rungameid/400040
 pause > nul
 cls
-start "" "C:\windows\syswow64\cmd.exe" B:\msqrd\
+start "" "C:\windows\syswow64\cmd.exe" C:\Users\kiosk
 exit
