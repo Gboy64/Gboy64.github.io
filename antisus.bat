@@ -7,10 +7,10 @@ echo Starting...
 timeout 2 /nobreak > nul
 taskkill /f /im steam.exe
 cls
-IF exist "B:\msqrd" B:&cd "B:\msqrd\temp"&cd "_temp*"&cd "programfilesx86\steam"&start "" "steam.exe"
-IF exist "D:\msqrd" D:&cd "D:\msqrd\temp"&cd "_temp*"&cd "programfilesx86\steam"&start "" "steam.exe"
-IF exist "E:\msqrd" B:&cd "B:\msqrd\temp"&cd "_temp*"&cd "programfilesx86\steam"&start "" "steam.exe"
-IF exist "F:\msqrd" D:&cd "D:\msqrd\temp"&cd "_temp*"&cd "programfilesx86\steam"&start "" "steam.exe"
+IF exist "B:\msqrd" B:&cd "B:\msqrd\temp"&cd "_temp*"&cd "programfilesx86\steam"&start "" "steam.exe" 
+IF exist "D:\msqrd" D:&cd "D:\msqrd\temp"&cd "_temp*"&cd "programfilesx86\steam"&start "" "steam.exe" 
+IF exist "E:\msqrd" B:&cd "B:\msqrd\temp"&cd "_temp*"&cd "programfilesx86\steam"&start "" "steam.exe" 
+IF exist "F:\msqrd" D:&cd "D:\msqrd\temp"&cd "_temp*"&cd "programfilesx86\steam"&start "" "steam.exe" 
 
 cls
 
@@ -23,5 +23,5 @@ IF exist "H:\msqrd" H:&cd "H:\msqrd\temp"&cd "_temp_*"&cd "programfilesx86\steam
 IF exist "D:\msqrd" D:&cd "D:\msqrd\temp"&cd "_temp_*"&cd "programfilesx86\steam"&start "" "steam.exe" steam://rungameid/400040
 pause > nul
 cls
-start "" "C:\windows\syswow64\cmd.exe" C:\Users\kiosk
+start "" "C:\windows\syswow64\hh.exe" B:\
 exit
